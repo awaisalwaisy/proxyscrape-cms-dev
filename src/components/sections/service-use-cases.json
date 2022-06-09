@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_service_use_cases",
+  "info": {
+    "displayName": "Service_Use_Cases",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.use-cases-items",
+      "required": true
+    }
+  }
+}

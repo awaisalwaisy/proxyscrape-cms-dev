@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_items_banner_items",
+  "info": {
+    "displayName": "Banner_Items"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

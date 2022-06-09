@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "video": {
+      "type": "string"
+    }
+  }
+}

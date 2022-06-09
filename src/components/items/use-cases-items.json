@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_items_use_cases_items",
+  "info": {
+    "displayName": "Use_Cases_Items"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
